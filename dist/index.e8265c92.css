@@ -1,9 +1,21 @@
+.wrap {
+  height: 55%;
+  border: 2px solid #ecf0f2;
+  border-top: 0;
+  padding: 45px 40px 60px;
+}
+
+.wrap:hover {
+  border-top: 2px solid #ecf0f2;
+}
+
 body {
   margin: 0;
 }
 
 .navbar {
   width: 100%;
+  z-index: 10;
   background-color: #000;
   justify-content: center;
   display: flex;
@@ -51,7 +63,7 @@ body {
 }
 
 .header .header-content {
-  width: 1170px;
+  width: 1160px;
   height: auto;
   flex-direction: row;
   justify-content: space-between;
@@ -148,7 +160,7 @@ body {
 }
 
 .tabs .tabs-content {
-  width: 1170px;
+  width: 1160px;
   height: auto;
   justify-content: center;
   margin-top: 100px;
@@ -528,7 +540,7 @@ body {
 }
 
 .statistics .statistics-content {
-  width: 1170px;
+  width: 1160px;
   height: auto;
   justify-content: space-between;
   display: flex;
@@ -723,7 +735,7 @@ body {
 }
 
 .empower .empower-content {
-  width: 1170px;
+  width: 1160px;
   height: auto;
   flex-direction: row;
   justify-content: space-between;
@@ -910,7 +922,7 @@ body {
 }
 
 .way .way-content {
-  width: 1170px;
+  width: 1160px;
   height: auto;
   flex-direction: row;
   justify-content: space-between;
@@ -993,6 +1005,861 @@ body {
   --vwo-el-filter: alpha(opacity= 0) !important;
   --vwo-el-bg: none !important;
   font-size: 16px !important;
+}
+
+.benefits {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.benefits .benefits-content {
+  width: 1160px;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-head {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-head .benefits-content-head__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  letter-spacing: -.3px;
+  text-align: center;
+  color: #000;
+  width: 70%;
+  grid-column: 3 / -3;
+  align-self: center;
+  margin: 0;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-head .benefits-content-head__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #1794c7;
+  background: none;
+  grid-column: 1 / -1;
+  margin-top: 50px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 112.5%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.65em;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  font-size: 18px !important;
+}
+
+.benefits .benefits-content .benefits-content-cards {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-one {
+  width: 33.3333%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-one .benefits-content-cards-one-bottom {
+  width: 100%;
+  height: auto;
+  border-right: 2px solid #f2f6f7;
+  flex-direction: column;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-one .benefits-content-cards-one-bottom .benefits-content-cards-one-bottom__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #1794c7;
+  background: none;
+  -webkit-box-direction: normal;
+  margin: 20px 0;
+  padding-top: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-one .benefits-content-cards-one-bottom .benefits-content-cards-one-bottom__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #44525e;
+  -webkit-box-direction: normal;
+  margin: 0 0 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-two {
+  width: 33.3333%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-two .benefits-content-cards-two-bottom {
+  width: 100%;
+  height: auto;
+  border-right: 2px solid #f2f6f7;
+  flex-direction: column;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-two .benefits-content-cards-two-bottom .benefits-content-cards-two-bottom__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #1794c7;
+  background: none;
+  -webkit-box-direction: normal;
+  margin: 20px 0;
+  padding-top: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-two .benefits-content-cards-two-bottom .benefits-content-cards-two-bottom__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #44525e;
+  -webkit-box-direction: normal;
+  margin: 0 0 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-three {
+  width: 33.3333%;
+  height: auto;
+  flex-direction: column;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-three .benefits-content-cards-three-bottom {
+  width: 100%;
+  height: auto;
+  flex-flow: column wrap;
+  display: flex;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-three .benefits-content-cards-three-bottom .benefits-content-cards-three-bottom__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #1794c7;
+  background: none;
+  -webkit-box-direction: normal;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding-top: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.benefits .benefits-content .benefits-content-cards .benefits-content-cards-three .benefits-content-cards-three-bottom .benefits-content-cards-three-bottom__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #44525e;
+  -webkit-box-direction: normal;
+  flex-wrap: wrap;
+  margin: 0 0 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.quote {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-top: 200px;
+  display: flex;
+}
+
+.quote .quote-black {
+  width: 100%;
+  height: 444px;
+  background-image: linear-gradient(90deg, #181e22 5%, #000 50%);
+  position: absolute;
+  transform: skewY(7.125deg);
+}
+
+.quote .quote-grey {
+  width: 100%;
+  height: 444px;
+  background-color: #181e22;
+  position: absolute;
+  transform: skewY(-7.125deg);
+}
+
+.quote .quote-content {
+  width: 100%;
+  height: 444px;
+  z-index: 1;
+  box-sizing: border-box;
+  background-color: #181e22;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  transform: translateY(100px);
+}
+
+.quote .quote-content .quote-content-info {
+  width: 1160px;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-logo {
+  width: 100%;
+  height: 84px;
+  justify-content: center;
+  display: flex;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-logo .quote-content-info-logo__img {
+  width: 250px;
+  height: 100%;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom .quote-content-info-bottom__thunderleft {
+  height: 28px;
+  width: 47px;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom .quote-content-info-bottom-text {
+  width: 60%;
+  flex-direction: column;
+  display: flex;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom .quote-content-info-bottom-text .quote-content-info-bottom-text__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: Adelle, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom .quote-content-info-bottom-text .quote-content-info-bottom-text__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #fff;
+  letter-spacing: -.2px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.quote .quote-content .quote-content-info .quote-content-info-bottom .quote-content-info-bottom__thunderright {
+  height: 28px;
+  width: 47px;
+  transform: scale(-1, 1);
+}
+
+.logos {
+  width: 100%;
+  height: 187px;
+  z-index: 4;
+  background-image: linear-gradient(to left, #181e22, #000 50%, #181e22);
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  display: flex;
+  position: relative;
+}
+
+.logos .logos-content {
+  width: 1160px;
+  height: 107px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.logos .logos-content .logos-content__google {
+  vertical-align: middle;
+  max-width: 100%;
+  opacity: .7;
+  filter: none;
+  height: 50%;
+  transition: opacity 1s;
+}
+
+.logos .logos-content .logos-content__button {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #ffeb77;
+  height: 40%;
+  background: #ffffff4d;
+  border: 2px solid #fff;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-flex;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.logos .logos-content .logos-content__home, .logos .logos-content .logos-content__nations, .logos .logos-content .logos-content__clorox {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  height: 50%;
+  vertical-align: middle;
+  max-width: 100%;
+  opacity: .7;
+  filter: none;
+  border: 0;
+  font-weight: 400;
+  transition: opacity 1s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.agency {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-top: 80px;
+  display: flex;
+}
+
+.agency .agency-content {
+  width: 1160px;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.agency .agency-content .agency-content-left {
+  width: 38%;
+  height: auto;
+  flex-direction: column;
+  padding-left: 100px;
+  display: flex;
+}
+
+.agency .agency-content .agency-content-left .agency-content-left__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 400;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  letter-spacing: 0 !important;
+  margin-bottom: 24px !important;
+  line-height: 1.2 !important;
+}
+
+.agency .agency-content .agency-content-left .agency-content-left__link {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  box-sizing: border-box;
+  color: #1794c7;
+  background: none;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.65em;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  font-size: 16px !important;
+}
+
+.agency .agency-content .agency-content-left .agency-content-left__img {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+.agency .agency-content .agency-content-right {
+  width: 38%;
+  height: auto;
+  flex-direction: column;
+  padding-left: 100px;
+  display: flex;
+}
+
+.agency .agency-content .agency-content-right__image {
+  width: 100%;
+  height: auto;
+}
+
+.agency .agency-content .agency-content-right__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 400;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  letter-spacing: 0 !important;
+  margin-bottom: 24px !important;
+  line-height: 1.2 !important;
+}
+
+.agency .agency-content .agency-content-right__link {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  box-sizing: border-box;
+  color: #1794c7;
+  background: none;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.65em;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  font-size: 16px !important;
+}
+
+.resourses {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-top: 150px;
+  display: flex;
+}
+
+.resourses .resourses-content {
+  width: 1160px;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.resourses .resourses-content .resourses-content__title {
+  width: 100%;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-align: center;
+  color: #000;
+  letter-spacing: -.3px;
+  margin: 0 0 40px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 40.55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-one {
+  width: 32%;
+  height: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-one:hover {
+  transition: transform .3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 17px #223c5033;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-one .resourses-content-cards-one__image {
+  width: 100%;
+  height: 45%;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-one .resourses-content-cards-one__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #929ea3;
+  -webkit-box-direction: normal;
+  padding-bottom: 15px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-one .resourses-content-cards-one__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  letter-spacing: -.3px;
+  color: #258dbc;
+  -webkit-box-direction: normal;
+  margin-bottom: 17px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two {
+  width: 32%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two:hover {
+  transition: transform .3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 17px #223c5033;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two .resourses-content-cards-two__image {
+  width: 100%;
+  height: 39%;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two .resourses-content-cards-two__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #929ea3;
+  -webkit-box-direction: normal;
+  padding-bottom: 15px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two .resourses-content-cards-two__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  letter-spacing: -.3px;
+  color: #258dbc;
+  -webkit-box-direction: normal;
+  margin-bottom: 17px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-two .resourses-content-cards-two__description {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #445056;
+  -webkit-box-direction: normal;
+  margin-bottom: 0;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three {
+  width: 32%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three:hover {
+  transition: transform .3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 17px #223c5033;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three .resourses-content-cards-three__image {
+  width: 100%;
+  height: 39%;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three .resourses-content-cards-three__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #929ea3;
+  -webkit-box-direction: normal;
+  padding-bottom: 15px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three .resourses-content-cards-three__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  letter-spacing: -.3px;
+  color: #258dbc;
+  -webkit-box-direction: normal;
+  margin-bottom: 17px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content-cards .resourses-content-cards-three .resourses-content-cards-three__description {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #445056;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  display: block;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.resourses .resourses-content .resourses-content__link {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  color: #000;
+  background: none;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */
