@@ -16,6 +16,7 @@ body {
 .navbar {
   width: 100%;
   z-index: 10;
+  cursor: pointer;
   background-color: #000;
   justify-content: center;
   display: flex;
@@ -33,10 +34,12 @@ body {
 .navbar .navbar-content .navbar-content__logo {
   width: 150px;
   height: 17px;
+  cursor: pointer;
 }
 
 .navbar .navbar-content .navbar-content-buttons__about, .navbar .navbar-content .navbar-content-buttons__products, .navbar .navbar-content .navbar-content-buttons__pricing, .navbar .navbar-content .navbar-content-buttons__services, .navbar .navbar-content .navbar-content-buttons__resources, .navbar .navbar-content .navbar-content-buttons__contact, .navbar .navbar-content .navbar-content-buttons__login {
   color: #fff;
+  cursor: pointer;
   background-color: #0000;
   border: none;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -48,6 +51,7 @@ body {
 .navbar .navbar-content .navbar-content-buttons__getstarted {
   width: 165px;
   height: 40px;
+  cursor: pointer;
   background-color: #ffdc28;
   border: none;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -122,6 +126,7 @@ body {
   vertical-align: bottom;
   height: 65px;
   width: 250px;
+  cursor: pointer;
   background-color: #ffdc28;
   border: 0;
   margin-right: 30px;
@@ -134,6 +139,7 @@ body {
 }
 
 .header .header-content .header-content-right .header-content-right-form__start {
+  cursor: pointer;
   color: #000;
   text-align: center;
   text-align: center;
@@ -168,6 +174,7 @@ body {
 
 .tabs .tabs-content .tabs-content-line {
   width: 100%;
+  cursor: pointer;
   border-bottom: 3px solid #b1c1cb;
   flex-direction: row;
   display: flex;
@@ -181,6 +188,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #fff;
   box-sizing: border-box;
+  cursor: pointer;
   background-color: #000;
   justify-content: center;
   align-items: flex-end;
@@ -200,6 +208,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #fff;
   box-sizing: border-box;
+  cursor: pointer;
   color: #000;
   width: 25%;
   text-align: center;
@@ -232,6 +241,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #fff;
   box-sizing: border-box;
+  cursor: pointer;
   width: 25%;
   height: 60px;
   color: #000;
@@ -265,6 +275,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #fff;
   box-sizing: border-box;
+  cursor: pointer;
   width: 25%;
   height: 60px;
   color: #000;
@@ -521,6 +532,7 @@ body {
 .tabs .tabs-content .tabs-content-big .tabs-content-big-right .tabs-content-big-right__list {
   color: #000;
   letter-spacing: .11px;
+  cursor: pointer;
   padding: 0;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
   font-size: 16px;
@@ -560,6 +572,7 @@ body {
   color: #000;
   width: 252.865px;
   height: 126.997px;
+  cursor: pointer;
   background-color: #fff;
   align-self: flex-end;
   position: absolute;
@@ -620,6 +633,7 @@ body {
   color: #000;
   width: 252.865px;
   height: 126.997px;
+  cursor: pointer;
   background-color: #fff;
   align-self: flex-end;
   position: absolute;
@@ -670,6 +684,7 @@ body {
   height: 146.997px;
   width: 282.865px;
   z-index: -1;
+  cursor: pointer;
   background-image: url("https://pantheon.io/sites/all/themes/zeus/images/purple_bg.png");
   background-repeat: no-repeat;
   display: flex;
@@ -692,6 +707,7 @@ body {
   color: #000;
   box-sizing: border-box;
   letter-spacing: -.32px;
+  cursor: pointer;
   margin-top: 30px;
   margin-bottom: 10px;
   margin-left: 30px;
@@ -805,6 +821,7 @@ body {
   text-align: left;
   box-sizing: border-box;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -850,6 +867,7 @@ body {
   text-align: left;
   box-sizing: border-box;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: reverse;
   margin-top: 50px;
@@ -911,6 +929,7 @@ body {
 .autopilot .autopilot-content .autopilot-content-right .autopilot-content-right__image {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 .way {
@@ -937,6 +956,7 @@ body {
 .way .way-content .way-content-left .way-content-left__img {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 .way .way-content .way-content-right {
@@ -992,6 +1012,7 @@ body {
   text-align: left;
   box-sizing: border-box;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   margin-top: 0;
@@ -1058,6 +1079,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   grid-column: 1 / -1;
   margin-top: 50px;
@@ -1109,6 +1131,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   margin: 20px 0;
@@ -1175,6 +1198,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   margin: 20px 0;
@@ -1241,6 +1265,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   flex-wrap: wrap;
@@ -1426,7 +1451,7 @@ body {
   max-width: 100%;
   opacity: .7;
   filter: none;
-  height: 50%;
+  height: 65%;
   transition: opacity 1s;
 }
 
@@ -1460,7 +1485,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   box-sizing: border-box;
-  height: 50%;
+  height: 65%;
   vertical-align: middle;
   max-width: 100%;
   opacity: .7;
@@ -1524,6 +1549,7 @@ body {
   text-align: left;
   box-sizing: border-box;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -1582,6 +1608,7 @@ body {
   text-align: left;
   box-sizing: border-box;
   color: #1794c7;
+  cursor: pointer;
   background: none;
   -webkit-box-direction: normal;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -1643,6 +1670,7 @@ body {
   width: 32%;
   height: 100%;
   height: 100%;
+  cursor: pointer;
   flex-direction: column;
   display: flex;
 }
@@ -1699,6 +1727,7 @@ body {
 .resourses .resourses-content .resourses-content-cards .resourses-content-cards-two {
   width: 32%;
   height: auto;
+  cursor: pointer;
   flex-direction: column;
   display: flex;
 }
@@ -1773,6 +1802,7 @@ body {
 .resourses .resourses-content .resourses-content-cards .resourses-content-cards-three {
   width: 32%;
   height: auto;
+  cursor: pointer;
   flex-direction: column;
   display: flex;
 }
@@ -1849,6 +1879,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   color: #000;
+  cursor: pointer;
   background: none;
   font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
   font-size: 20px;
@@ -1857,6 +1888,496 @@ body {
   line-height: 30px;
   text-decoration: none;
   transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.yellow {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-top: 200px;
+  display: flex;
+}
+
+.yellow .yellow-dark {
+  width: 100%;
+  height: 444px;
+  background-image: linear-gradient(90deg, #eecf1e 5%, #e1c211 50%);
+  position: absolute;
+  transform: skewY(7.125deg);
+}
+
+.yellow .yellow-light {
+  width: 100%;
+  height: 444px;
+  background-color: #eecf1e;
+  position: absolute;
+  transform: skewY(-7.125deg);
+}
+
+.yellow .yellow-content {
+  width: 100%;
+  height: 440px;
+  z-index: 1;
+  box-sizing: border-box;
+  background-color: #eecf1e;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  transform: translateY(120px);
+}
+
+.yellow .yellow-content .yellow-content-info {
+  width: 1160px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  transform: translateY(-100px);
+}
+
+.yellow .yellow-content .yellow-content-info .yellow-content-info__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: -.3px;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.yellow .yellow-content .yellow-content-info .yellow-content-info__subtitle {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  justify-content: center;
+  margin-top: 0;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  display: flex;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.yellow .yellow-content .yellow-content-info .yellow-content-info-form {
+  width: 75%;
+  height: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.yellow .yellow-content .yellow-content-info .yellow-content-info-form .yellow-content-info-form__email {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font: inherit;
+  min-width: 0;
+  height: auto;
+  appearance: none;
+  border: 0;
+  flex-grow: 1;
+  margin: 0;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  color: #78868e !important;
+  padding: 10px 20px !important;
+}
+
+.yellow .yellow-content .yellow-content-info .yellow-content-info-form .yellow-content-info-form__submit {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font: inherit;
+  text-transform: none;
+  cursor: pointer;
+  appearance: none;
+  color: #fff;
+  cursor: pointer;
+  background: #268ebc;
+  border: 0;
+  margin: 0;
+  padding: 0 30px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: all .2s;
+  overflow: visible;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  padding-top: 200px;
+  display: flex;
+}
+
+.footer .footer-content {
+  width: 1160px;
+  height: auto;
+  flex-direction: row;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-about {
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  margin: 10px 0 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  line-height: 1.65em !important;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about__company {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about-careers {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about-careers .footer-content-about-careers__careers {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about-careers .footer-content-about-careers__hiring {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #242090;
+  border-radius: 8px;
+  -webkit-box-direction: normal;
+  margin-left: 10px;
+  padding: 8px 10px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-about .footer-content-about__leadership, .footer .footer-content .footer-content-about .footer-content-about__newsroom {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-products {
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-products .footer-content-products__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  margin: 10px 0 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  line-height: 1.65em !important;
+}
+
+.footer .footer-content .footer-content-products .footer-content-products__why, .footer .footer-content .footer-content-products .footer-content-products__solutions, .footer .footer-content .footer-content-products .footer-content-products__hosting, .footer .footer-content .footer-content-products .footer-content-products__plans {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-partners {
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-partners .footer-content-partners__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  margin: 10px 0 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  line-height: 1.65em !important;
+}
+
+.footer .footer-content .footer-content-partners .footer-content-partners__agency, .footer .footer-content .footer-content-partners .footer-content-partners__google, .footer .footer-content .footer-content-partners .footer-content-partners__reseller, .footer .footer-content .footer-content-partners .footer-content-partners__new {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-popular {
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-popular .footer-content-popular__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  margin: 10px 0 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  line-height: 1.65em !important;
+}
+
+.footer .footer-content .footer-content-popular .footer-content-popular__new, .footer .footer-content .footer-content-popular .footer-content-popular__events, .footer .footer-content .footer-content-popular .footer-content-popular__status, .footer .footer-content .footer-content-popular .footer-content-popular__demo {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer .footer-content .footer-content-connect {
+  width: 180px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-content .footer-content-connect .footer-content-connect__title {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #000;
+  -webkit-box-direction: normal;
+  margin: 10px 0 20px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  line-height: 1.65em !important;
+}
+
+.footer .footer-content .footer-content-connect .footer-content-connect__contact, .footer .footer-content .footer-content-connect .footer-content-connect__number {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #242090;
+  background: none;
+  -webkit-box-direction: normal;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.65em;
+  text-decoration: none;
+  transition: all .2s;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer-content-wrap {
+  width: 100%;
+  height: 70px;
+  place-content: center;
+  display: flex;
+}
+
+.footer-content-wrap .footer-content-info {
+  width: 1160px;
+  height: 100%;
+  border-top: 1px solid #eef2f3;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-content-wrap .footer-content-info .footer-content-info__copyright, .footer-content-wrap .footer-content-info .footer-content-info__privacy, .footer-content-wrap .footer-content-info .footer-content-info__data, .footer-content-wrap .footer-content-info .footer-content-info__policy, .footer-content-wrap .footer-content-info .footer-content-info__terms {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 0;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
+  --vwo-el-opacity: 0 !important;
+  --vwo-el-filter: alpha(opacity= 0) !important;
+  --vwo-el-bg: none !important;
+}
+
+.footer-content-wrap .footer-content-info .footer-content-info__statement {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #5b6a77;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  margin-bottom: 0;
+  margin-right: 160px;
+  font-family: Tablet Gothic, Frutiger, Frutiger Linotype, Univers, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65em;
   --vwo-el-opacity: 0 !important;
   --vwo-el-filter: alpha(opacity= 0) !important;
   --vwo-el-bg: none !important;
